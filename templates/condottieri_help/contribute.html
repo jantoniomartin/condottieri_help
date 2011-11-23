@@ -13,18 +13,26 @@
 <p>{% blocktrans %}Like most of the libre software projects, there are some ways that you can contribute to Condottieri, if you think that the project deserves your help. You don't need to be a programmer to improve a libre software project.{% endblocktrans %}</p>
 
 <h2>{% trans "The hosting" %}</h2>
-<p>{% blocktrans %}Condottieri is hosted by Dreamhost, a great hosting provider that gives a lot of features for a small amount of money. At present, Condottieri is hosted in a shared server, what means that a lot of websites share the resources of a single server. That's the reason that sometimes this page can be a little slow. Most of the time, however, we get an acceptable speed.{% endblocktrans %}</p>
+<p>{% blocktrans %}Condottieri is hosted by Webfaction, a great hosting provider that gives a lot of features for a small amount of money. At present, Condottieri is hosted in a shared server, what means that many websites share the resources of a single server. That's the reason that sometimes this page can be a little slow. Most of the time, however, we get an acceptable speed.{% endblocktrans %}</p>
 
-<p>{% blocktrans %}This hosting is being paid by me, the project leader, and some of our fellow players that have nobly contributed to ease this burden. If you have a paypal account and some spare bucks, you can be one of these generous users and pay a part (as small or big as you wish) of the hosting. Fortunately, Dreamhost offers a service that allows you to donate money directly to the hosting.{% endblocktrans %}</p>
+<p>{% blocktrans %}This hosting is being paid by me, the project leader, and some of our fellow players that have nobly contributed to ease this burden. If you have a paypal account and some spare bucks, you can be one of these generous users and pay a part (as small or big as you wish) of the hosting. {% endblocktrans %}</p>
 
-<p><a href="http://www.dreamhost.com/donate.cgi?id=14894">{% trans "Donate to Condottieri hosting" %}</a></p>
+{% if donation_template %}
+	<div style="text-align: center;">
+	{% include donation_template %}
+	</div>
+{% endif %}
 
 <p>{% blocktrans %}If there were enough donors, other hosting possibilities could be considered (a virtual private server, etc) that would increase the speed of the game.{% endblocktrans %}</p>
+
+<p>{% blocktrans %}There is one more way to help cover the hosting costs: if you need a hosting provider, you can signup with Webfaction <b>through the following link</b> and they will pay me a part of what you pay for your hosting.{% endblocktrans %}</p>
+
+<p><a href="http://www.webfaction.com?affiliate=strider" target="_blank">{% trans "Signup with Webfaction" %}</a></p>
 
 <h2>{% trans "The code" %}</h2>
 <p>{% blocktrans %}Condottieri has been developed using mainly Python and Django. As an open source project, the source code of Condottieri is available in Github, and anyone can read, copy or modify it.{% endblocktrans %}</p>
 
-<p><a href="http://github.com/jantoniomartin/condottieri">{% trans "Source code of Condottieri" %}</a></p>
+<p><a href="http://github.com/jantoniomartin/machiavelli">{% trans "Source code of Condottieri" %}</a></p>
 
 <p>{% blocktrans %}If you have some programming experience (either with Python or with any other language), you can improve the code suggesting changes or writing your own patches.{% endblocktrans %}
 
