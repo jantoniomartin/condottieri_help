@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-15 14:27+0100\n"
+"POT-Creation-Date: 2011-11-23 10:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,15 +58,15 @@ msgstr "El alojamiento"
 
 #: templates/condottieri_help/contribute.html:16
 msgid ""
-"Condottieri is hosted by Dreamhost, a great hosting provider that gives a "
+"Condottieri is hosted by Webfaction, a great hosting provider that gives a "
 "lot of features for a small amount of money. At present, Condottieri is "
-"hosted in a shared server, what means that a lot of websites share the "
-"resources of a single server. That's the reason that sometimes this page can "
-"be a little slow. Most of the time, however, we get an acceptable speed."
+"hosted in a shared server, what means that many websites share the resources "
+"of a single server. That's the reason that sometimes this page can be a "
+"little slow. Most of the time, however, we get an acceptable speed."
 msgstr ""
-"Condottieri está alojado en Dreamhost, un gran proveedor de hosting que "
+"Condottieri está alojado en Webfaction, un gran proveedor de hosting que "
 "ofrece muchas ventajas por poco dinero. Por ahora, Condottieri está alojado "
-"en un servidor compartido, lo que significa que un montón de webs comparten "
+"en un servidor compartido, lo que significa que muchas webs comparten "
 "los recursos de un mismo servidor. Esta es la razón por la que a veces esta "
 "página es un poco lenta. La mayor parte del tiempo, sin embargo, tenemos una "
 "velocidad aceptable."
@@ -76,22 +76,14 @@ msgid ""
 "This hosting is being paid by me, the project leader, and some of our fellow "
 "players that have nobly contributed to ease this burden. If you have a "
 "paypal account and some spare bucks, you can be one of these generous users "
-"and pay a part (as small or big as you wish) of the hosting. Fortunately, "
-"Dreamhost offers a service that allows you to donate money directly to the "
-"hosting."
+"and pay a part (as small or big as you wish) of the hosting. "
 msgstr ""
 "Este alojamiento lo pagamos yo (el líder del proyecto) y algunos de los  "
 "jugadores que han contribuido generosamente a aliviar esta carga. Si tienes "
-"una cuenta de paypal y algunos euros de sobra, puedes ser uno de esos usuarios "
-"generosos y pagar una parte (tan pequeña como quieras) del hosting. Afortunadamente, "
-"Dreamhost ofrece un servicio que permite donar dinero directamente al hosting."
+"una cuenta de paypal y algunos euros de sobra, puedes ser uno de esos "
+"usuarios generosos y pagar una parte (tan pequeña como quieras) del hosting. "
 
-
-#: templates/condottieri_help/contribute.html:20
-msgid "Donate to Condottieri hosting"
-msgstr "Donar al hosting de Condottieri"
-
-#: templates/condottieri_help/contribute.html:22
+#: templates/condottieri_help/contribute.html:26
 msgid ""
 "If there were enough donors, other hosting possibilities could be considered "
 "(a virtual private server, etc) that would increase the speed of the game."
@@ -99,11 +91,25 @@ msgstr ""
 "Si hubiera suficientes donantes, se podrían considerar otras posibilidades "
 "(a servidor privado virtual, etc) que incrementarían la velocidad del juego."
 
-#: templates/condottieri_help/contribute.html:24
+#: templates/condottieri_help/contribute.html:28
+msgid ""
+"There is one more way to help cover the hosting costs: if you need a hosting "
+"provider, you can signup with Webfaction <b>through the following link</b> "
+"and they will pay me a part of what you pay for your hosting."
+msgstr ""
+"Hay otra forma de ayudar a cubrir los costes del hosting: si necesitas un proveedor "
+"de hosting, puedes registrarte en Webfaction <b>mediante el siguiente enlace</b> "
+"y Webfaction me pagará una parte de lo que tú pagues por tu hosting."
+
+#: templates/condottieri_help/contribute.html:30
+msgid "Signup with Webfaction"
+msgstr "Registrarme en Webfaction"
+
+#: templates/condottieri_help/contribute.html:32
 msgid "The code"
 msgstr "El código"
 
-#: templates/condottieri_help/contribute.html:25
+#: templates/condottieri_help/contribute.html:33
 msgid ""
 "Condottieri has been developed using mainly Python and Django. As an open "
 "source project, the source code of Condottieri is available in Github, and "
@@ -113,25 +119,25 @@ msgstr ""
 "proyecto de software libre, el código fuente de Condottieri está disponible "
 "en Github, y cualquiera puede leerlo, copiarlo o modificarlo."
 
-#: templates/condottieri_help/contribute.html:27
+#: templates/condottieri_help/contribute.html:35
 msgid "Source code of Condottieri"
 msgstr "Código fuente de Condottieri"
 
-#: templates/condottieri_help/contribute.html:29
+#: templates/condottieri_help/contribute.html:37
 msgid ""
 "If you have some programming experience (either with Python or with any "
 "other language), you can improve the code suggesting changes or writing your "
 "own patches."
 msgstr ""
 "Si tienes experiencia como programador (ya sea con Python o con cualquier "
-"otro lenguaje), puedes mejorar el código sugiriendo cambios o escribiendo tus "
-"propios parches."
+"otro lenguaje), puedes mejorar el código sugiriendo cambios o escribiendo "
+"tus propios parches."
 
-#: templates/condottieri_help/contribute.html:31
+#: templates/condottieri_help/contribute.html:39
 msgid "The documentation"
 msgstr "La documentación"
 
-#: templates/condottieri_help/contribute.html:33
+#: templates/condottieri_help/contribute.html:41
 msgid ""
 "Unfortunately, not all the players have a copy of Machiavelli, and I don't "
 "have the rights to publish a copy of the rules. Some players may thank you "
@@ -143,11 +149,11 @@ msgstr ""
 "agradecidos por ayudarles a entender como funciona el juego. Puedes usar el "
 "foro para responder a las preguntas de otros jugadores."
 
-#: templates/condottieri_help/contribute.html:35
+#: templates/condottieri_help/contribute.html:43
 msgid "Translations"
 msgstr "Traducciones"
 
-#: templates/condottieri_help/contribute.html:37
+#: templates/condottieri_help/contribute.html:45
 msgid ""
 "At present, Condottieri is available in English and Spanish (some parts are "
 "also available in German). However, the whole code is ready to be translated "
@@ -156,26 +162,26 @@ msgid ""
 "text file. You can offer yourself for the translation in the forum, and I "
 "will give you some guidelines."
 msgstr ""
-"En este momento, Condottieri está disponible en Inglés y Castellano (y algunas "
-"partes en Alemán). Sin embargo, todo el código está preparado para ser traducido "
-"a cualquier otro idioma. Si entiendes inglés y algún otro idioma en el que te "
-"gustaría usar Condottieri, todo lo que tienes que hacer es editar un archivo "
-"de texto. Puede ofrecerte para la traducción en el foro, y te daré algunas "
-"directrices."
+"En este momento, Condottieri está disponible en Inglés y Castellano (y "
+"algunas partes en Alemán). Sin embargo, todo el código está preparado para "
+"ser traducido a cualquier otro idioma. Si entiendes inglés y algún otro "
+"idioma en el que te gustaría usar Condottieri, todo lo que tienes que hacer "
+"es editar un archivo de texto. Puede ofrecerte para la traducción en el "
+"foro, y te daré algunas directrices."
 
-#: templates/condottieri_help/contribute.html:39
+#: templates/condottieri_help/contribute.html:47
 msgid "Suggestions"
 msgstr "Sugerencias"
 
-#: templates/condottieri_help/contribute.html:41
+#: templates/condottieri_help/contribute.html:49
 msgid ""
 "Maybe you have an idea to improve the game (a new rule, a change in the "
 "rules, etc). You can use the forum to discuss about it with other players "
 "and decide if it should be added to the game."
 msgstr ""
-"Quizá tengas una idea para mejorar el juego (una nueva regla, un cambio "
-"en las reglas, etc). Puedes usar el foro para discutirla con otros jugadores "
-"y decidir si debería ser añadida al juego."
+"Quizá tengas una idea para mejorar el juego (una nueva regla, un cambio en "
+"las reglas, etc). Puedes usar el foro para discutirla con otros jugadores y "
+"decidir si debería ser añadida al juego."
 
 #: templates/condottieri_help/index.html:6
 #, python-format
@@ -854,3 +860,6 @@ msgstr ""
 "IMPORTANTE: Todos los mensajes enviados durante una partida serán eliminados "
 "cuando la partida termine. Si quieres conservar una copia de algún mensaje, "
 "tendrás que copiar los contenidos en otro lugar."
+
+#~ msgid "Donate to Condottieri hosting"
+#~ msgstr "Donar al hosting de Condottieri"
