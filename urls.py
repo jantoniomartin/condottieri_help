@@ -1,16 +1,10 @@
-from django.conf.urls.defaults import *
-from django.views.generic.simple import direct_to_template
-from django.views.decorators.cache import cache_page
+from django.conf.urls import *
+from django.views.generic.base import TemplateView
 
-from django.conf import settings
-
-extra_context = {
-	'contact_email': settings.CONTACT_EMAIL,
-	'forum_url': '/forum',
-}
+from condottieri_help.views import HelpTemplateView
 
 urlpatterns = patterns('condottieri_help.views',
-    url(r'^$', direct_to_template, {'template': 'condottieri_help/index.html', 'extra_context': extra_context}, name='help-index'),
-    url(r'^contribute$', direct_to_template, {'template': 'condottieri_help/contribute.html', 'extra_context': extra_context}, name='help-contribute'),
+    url(r'^$', HelpTemplateView.as_view(), name='help-index'),
+    url(r'^contribute$', TemplateView.as_view(template_name='condottieri_help/contribute.html'), name='help-contribute'),
 )
 
